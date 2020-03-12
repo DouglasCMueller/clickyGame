@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Starry Night",
+      "image": "https://www.worldatlas.com/r/w1200-h701-c1200x701/upload/1f/e7/fd/1280px-van-gogh-starry-night-google-art-project.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "name": "American Gothic",
+      "image": "https://historylists.org/images/american-gothic-by-grant-wood.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "Mona Lisa",
+      "image": "https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_412,ar_1:1/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190430171751-mona-lisa.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "The Creation of Adam",
+      "image": "https://10mosttoday.com/wp-content/uploads/2013/09/The_Creation_Of_Adam.jpg",
+    "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Meisje met de parel",
+      "image": "https://www.worldatlas.com/r/w728/upload/9d/d2/c4/meisje-met-de-parel.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "The Persistence of Memory",
+      "image": "https://10mosttoday.com/wp-content/uploads/2013/09/The_Persistence_of_Memory.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "name": "Venus",
+      "image": "https://cassavafilms.com/wp-content/uploads/2013/03/010517-venus.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "Sunday Afternoon on the Island",
+      "image": "https://media.timeout.com/images/105293264/image.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "The Scream",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8pseXDictwJMBfLwQpPwUs3IIWnaa5R6mjyMetKzyR7VEpbDk",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "Dora Maar",
+      "image": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/8049981/picasso-dora-maar.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "The Last Supper",
+      "image": "https://aleteiaen.files.wordpress.com/2018/03/web3-the-last-supper-by-da-vinci-public-domain.jpg?quality=100&strip=all",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "name": "Flower",
+      "image": "https://cdn.shopify.com/s/files/1/2341/3995/articles/6-red-hills_1024x768.progressive.jpg?v=1536794110",
+      "clicked": false
+    }
+  ]
+  

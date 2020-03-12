@@ -1,0 +1,16 @@
+  .cardTotal {
+    border-radius: 2px;
+    height: 225px;
+    margin: 1rem;
+    position: relative;
+    width: 225px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+    margin: 10px;
+  }
+  .card-img {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  

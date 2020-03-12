@@ -4,8 +4,8 @@
   padding: 0;
   font-family: arial, Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background-color: beige;
 }
-
 html, body, #root {
   padding: 0;
   margin: 0;
