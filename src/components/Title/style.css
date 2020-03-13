@@ -5,17 +5,20 @@
     text-decoration: underline;
     color: #2A77AE;
     margin-bottom: 50px;
-  }
-  .navbar li {
+}
+
+.navbar li {
     display: inline-block;
     padding: 26px 0;
     width: 33.3%;
     text-align: center;
-  }
-  .headerNav{
+}
+
+.headerNav {
     background-color: beige;
-  }
-  .gameTitle {
-    font-size: 40px;;
-  }
-  
+}
+
+.gameTitle {
+    font-size: 40px;
+    ;
+}

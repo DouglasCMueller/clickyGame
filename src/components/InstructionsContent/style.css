@@ -1,15 +1,17 @@
 .instructionContainer {
-    background-image: url(./images/paintBrushStrokes.jpg); 
+    background-image: url(./images/paintBrushStrokes.jpg);
     color: black;
-    min-height:150px;
+    min-height: 150px;
     padding: 5px;
     text-align: center;
-    }
-    .paragraphTitle {
+}
+
+.paragraphTitle {
     font-size: 75px;
     background: 0;
-    }
-    .paragraphInstructions {
+}
+
+.paragraphInstructions {
     font-size: 35px;
     background: 0;
-    }
+}
