@@ -5,7 +5,6 @@ import InstructionContainer from "./components/InstructionsContent"
 import "./App.css";
 import artWorks from "./artWorks.json";
 
-
 let correctGuesses =0;
 let bestScore =0;
 let gameScore =0;
@@ -27,6 +26,7 @@ clicked = id => {
   const clickedMatch = artWorks.filter(artWork => artWork.id === id)
  
 if (clickedMatch[0].clicked){
+  
   clickedMessage = "You already guessed this artwork! - Try Again!";
   correctGuesses = 0;
 
@@ -37,8 +37,6 @@ if (clickedMatch[0].clicked){
     this.setState ({correctGuesses})
     this.setState ({artWorks})
 }
-
-
 else if (correctGuesses<11) {
   clickedMatch[0].clicked = true;
   correctGuesses ++;
@@ -46,7 +44,6 @@ clickedMessage = "Well done, you haven't clicked on this artwork yet! Keep Going
 if (correctGuesses > bestScore){
 bestScore = correctGuesses;
 this.setState({bestScore});
-
 }
   artWorks.sort(function(a, b){return 0.5 - Math.random()});
 
@@ -68,11 +65,8 @@ this.setState({ correctGuesses });
 this.setState ({ clickedMessage })
 
 }
-    // Set this.state.friends equal to the new friends array
-    this.setState({ artWorks });
+       this.setState({ artWorks });
 };
-
-
 
 shakeArtWork = id => {
 
@@ -82,16 +76,14 @@ shakeArtWork = id => {
   render() {
     return (
     <div>
-    
-    <InstructionContainer />
+        <InstructionContainer />
    <div className = "scoreSummary">
 Score: {correctGuesses} || Best Score: {bestScore}
    </div>
    <div className = "guessMessage">
 {clickedMessage}
    </div>
-    
-   <Wrapper>
+       <Wrapper>
           {this.state.artWorks.map(artWork => (
           <ArtWorkCard
        clicked={this.clicked}
