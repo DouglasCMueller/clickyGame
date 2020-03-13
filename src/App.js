@@ -72,32 +72,28 @@ class App extends Component {
     };
 
     render() {
-        return ( <
-            div >
-            <
-            InstructionContainer / >
-            <
-            div className = "scoreSummary" >
-            Score: { correctGuesses } || Best Score: { bestScore } <
-            /div> <
-            div className = "guessMessage" > { clickedMessage } <
-            /div> <
-            div className = { shake ? "shake" : "" } >
-            <
-            Wrapper > {
+        return (
+            <div>
+            <InstructionContainer />
+            <div className = "scoreSummary">
+            Score: { correctGuesses } || Best Score: { bestScore }
+            </div>
+            <div className = "guessMessage" > { clickedMessage }
+            </div>
+            <div className = { shake ? "shake" : "" }>
+            <Wrapper> {
                 this.state.artWorks.map(artWork => ( <
                     ArtWorkCard clicked = { this.clicked }
                     id = { artWork.id }
                     key = { artWork.id }
                     name = { artWork.name }
                     image = { artWork.image }
-                    // clicked={this.removeArtWork}
+
                     />
                 ))
-            } <
-            /Wrapper> <
-            /div> <
-            /div>
+            } </Wrapper> 
+            </div>  
+            </div>
         );
     }
 }
