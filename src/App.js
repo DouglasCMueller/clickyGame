@@ -20,11 +20,11 @@ class App extends Component {
         bestScore,
         gameScore,
         clickedMessage,
-        shake
+        shake: false
     };
 
     clicked = id => {
-        shake = false;
+       shake = false;
         const artWorks = this.state.artWorks;
         const clickedMatch = artWorks.filter(artWork => artWork.id === id)
 
